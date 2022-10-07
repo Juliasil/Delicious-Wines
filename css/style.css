@@ -212,3 +212,57 @@ h2.products-bahia::before {
   padding: 15px 0;
   margin:20px auto 0 auto;
 }
+/*=======================================================EndProducts====================================================*/
+
+/*=======================================================startlocations=================================================*/
+.locations {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+}
+
+.item-locations {
+  clear: both;
+  margin: 60px auto;
+}
+
+.item-locations::after, .item-locations::before {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.item-locations img {
+  width: 460px;
+  display: block;
+  float: left;
+  margin: 0 10px;
+}
+
+.item-locations > div {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.item-locations h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.item-locations p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  max-width: 320px;
+  margin-bottom: 40px;
+}
+
+.item-locations a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+  padding: 10px 20px;
+}
