@@ -5,14 +5,18 @@ margin: 0;
 }
 /*=====================================================ENDRESET=============================*/
 
-/*=====================================================Startbody=============================*/
+/*=====================================================startbody=============================*/
 body {
   font-family: Georgia, serif;
   color: #252525;
 }
-/*======================================================Endbody===============================*/
 
-/*=======================================================Startmenu=============================*/
+* {
+  box-sizing: border-box;
+}
+/*======================================================endbody===============================*/
+
+/*=======================================================startmenu=============================*/
 .menu {
   background: #252525;
   padding: 20px 0;
@@ -50,9 +54,9 @@ a.menu-logo {
   color: #ffffff;
   font-size: 1.125em;
 }
-/*=================================================EndMenu===========================================*/
+/*=================================================endmenu===========================================*/
 
-/*=================================================StartIntro=========================================*/
+/*=================================================startintro=========================================*/
 .intro {
   background: url(/assets/img/wines.png) no-repeat center center;
   background-size: cover;
@@ -80,7 +84,7 @@ a.menu-logo {
   font-size: 1.125em;
 }
 
-/*=====================================================StartAbout=======================================*/
+/*=====================================================startabout=======================================*/
 .about {
   padding: 60px 0;
 }
@@ -136,9 +140,9 @@ a.menu-logo {
   max-width: 460px;
 }
 
-/*====================================================EndAbout==============================================*/
+/*====================================================endabout==============================================*/
 
-/*====================================================StartProducts===========================================*/
+/*====================================================startproducts===========================================*/
 .products {
   background: #e7e4d8;
   padding: 60px 0;
@@ -212,7 +216,7 @@ h2.products-bahia::before {
   padding: 15px 0;
   margin:20px auto 0 auto;
 }
-/*=======================================================EndProducts====================================================*/
+/*=======================================================endProducts====================================================*/
 
 /*=======================================================startlocations=================================================*/
 .locations {
@@ -265,4 +269,100 @@ h2.products-bahia::before {
   border: 3px solid;
   color: #252525;
   padding: 10px 20px;
+}
+/*=========================================================endlocation=======================================================================*/
+
+/*=========================================================startofsign=======================================================================*/
+.sign {
+  background: #e7e4d8;
+  padding: 30px 0;
+}
+
+.sign-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.sign-container::after, .sign-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.sign-information {
+  width: 460px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sign-information h2 {
+  font-size: 2.25em;
+}
+
+.sign-information p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.sign form {
+    width: 460px;
+    margin: 40px 10px 0 10px;
+    float: left;
+}
+
+.sign form label {
+  display: none;
+}
+
+.sign input {
+  width: 320px;
+  border: 3px solid #252525;
+  background: none;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding: 10px;
+  float: left;
+}
+
+.sign button {
+  background: #252525;
+  border: none;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  width: 140px;
+  padding: 13px 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*===============================================================endsign==============================================================================*/
+
+/*===============================================================startfooter===========================================================================*/
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-container::after, .footer-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer p {
+  float: left;
+  margin: 0 10px;
+  font-size: 1.125em;
+  list-style: 1.4em;
+}
+
+.footer img {
+  float: right;
+  margin: 0 10px;
+  display: block;
 }
