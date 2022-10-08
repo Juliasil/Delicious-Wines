@@ -54,6 +54,20 @@ a.menu-logo {
   color: #ffffff;
   font-size: 1.125em;
 }
+
+@media only screen and (max-width:739px) {
+  .menu {
+    text-align: center;
+  }
+  a.menu-logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+}
 /*=================================================endmenu===========================================*/
 
 /*=================================================startintro=========================================*/
@@ -84,6 +98,11 @@ a.menu-logo {
   font-size: 1.125em;
 }
 
+@media only screen and (max-width:739px) {
+  .intro {
+    padding: 60px 0;
+  }
+}
 /*=====================================================startabout=======================================*/
 .about {
   padding: 60px 0;
@@ -138,6 +157,25 @@ a.menu-logo {
   text-align: center;
   margin: 20px auto;
   max-width: 460px;
+}
+
+@media only screen and (min-width:740px) and (max-width: 980px) {
+  .about-container {
+    max-width: 720px;
+  } 
+  .about-item {
+    width: 340px;
+  }
+}
+
+@media(max-width: 739px) {
+  .about-container {
+    max-width: 300px;
+  }
+  .about-item {
+    width: 300px;
+    margin: 0 auto;
+  }
 }
 
 /*====================================================endabout==============================================*/
@@ -216,6 +254,25 @@ h2.products-bahia::before {
   padding: 15px 0;
   margin:20px auto 0 auto;
 }
+
+@media only screen and (min-width:740px) and (max-width: 980px) {
+  .products-container {
+    max-width: 720px;
+  } 
+  .products-item {
+    width: 220px;
+  }
+}
+
+@media(max-width: 739px) {
+  .products-container {
+    max-width: 300px;
+  }
+  .products-item {
+    
+    margin: 0 auto 20 auto;
+  }
+}
 /*=======================================================endProducts====================================================*/
 
 /*=======================================================startlocations=================================================*/
@@ -269,6 +326,25 @@ h2.products-bahia::before {
   border: 3px solid;
   color: #252525;
   padding: 10px 20px;
+}
+
+@media only screen and (min-width:740px) and (max-width: 980px) {
+   .locations {
+    max-width: 720px;
+   }
+   .item-locations > div, .item-locations img  {
+    width: 340px;
+   }
+}
+
+@media(max-width: 739px) {
+    .locations {
+      max-width: 300px;
+    }
+    .item-locations > div, .item-locations img {
+      width: 300px;
+      margin: 0px;
+    }
 }
 /*=========================================================endlocation=======================================================================*/
 
@@ -335,6 +411,25 @@ h2.products-bahia::before {
   color: #ffffff;
   cursor: pointer;
 }
+
+@media only screen and (min-width:740px) and (max-width: 980px) {
+ .sign-container {
+  max-width: 720px;
+ }
+ .sign-information, .sign form,  .sign input  {
+  width: 340px;
+ }
+}
+
+@media(max-width: 739px) {
+  .sign-container {
+    max-width: 300px;
+  }
+  .sign-information, .sign form,  .sign input  {
+    width: 300px;
+    margin: 10px 0 0 0 ;
+   }
+}
 /*===============================================================endsign==============================================================================*/
 
 /*===============================================================startfooter===========================================================================*/
@@ -365,4 +460,19 @@ h2.products-bahia::before {
   float: right;
   margin: 0 10px;
   display: block;
+}
+
+@media(max-width: 739px) {
+     .footer-container {
+      max-width: 300px;
+
+     }
+     .footer p {
+      float: none;
+      margin: 0px;
+     }
+     .footer img {
+      float: none;
+      margin: 10px 0;
+     }
 }
