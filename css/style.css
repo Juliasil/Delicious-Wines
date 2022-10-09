@@ -72,7 +72,7 @@ a.menu-logo {
 
 /*=================================================startintro=========================================*/
 .intro {
-  background: url('/assets/img/wines.png') no-repeat center center;
+  background: url('../assets/img/wines.png') no-repeat center center;
   background-size: cover;
   padding: 150px 0;
   text-align: center;
